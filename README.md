@@ -30,8 +30,7 @@ In the final normal-operation screenshot, the 110-kV bus is approximately 110.0 
 | Load | **5 MW + 2 MVAr** | Assumed constant load for study scenarios |
 | Protection CTs | **200/1 A** each | User-selected study rating; protection class, accuracy limit factor, burden, and fault saturation **not validated** |
 | Frequency | **50 Hz** | Study setting |
-
-**Notes on transformer data.** Source [1] reports typical characteristics for a 20-MVA, 110-kV class power transformer. It does **not** uniquely establish the design, earthing, nameplate, losses or impedance of the simulated utility transformer. The previous 3% / 0-kW inputs were preliminary and are not used as a defensible final reference. For single-phase faults, the zero-sequence transformer data and the 20-kV system earthing configuration must be established independently.
+ 
 
 **Notes on the cable.** This repository treats the selected PowerFactory cable library record as *model input*, not as proof of compliance with a particular supplier datasheet, route installation, or short-circuit thermal duty.
 
