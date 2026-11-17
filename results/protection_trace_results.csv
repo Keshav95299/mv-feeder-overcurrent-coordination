@@ -1,0 +1,5 @@
+case,fault_location,fault_level,R2_scheduled_or_operated_s,R1_scheduled_or_operated_s,R2_state,CB2_state,R1_state,CB1_state,notes
+normal_selective_C,Bus C,minimum,0.093,0.467,tripped,open,did not trip,closed,R1 time from initial trace; CB2 trips at 0.093s
+blocked_CB2_backup_C,Bus C,minimum,0.093,0.467,tripped,closed and blocked,tripped,open,"Time-graded backup, not dedicated ANSI 50BF"
+primary_B,Bus B,minimum,,0.418,no operation shown,not evaluated,tripped,open,Only R1 shows as active
+normal_selective_C,Bus C,maximum,0.079,0.396,tripped,open,did not trip,closed,R1 time from initial trace

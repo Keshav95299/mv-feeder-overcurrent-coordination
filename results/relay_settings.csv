@@ -1,0 +1,3 @@
+relay,cubicle,CT_ratio_A,IEC_characteristic,I_greater_pickup_pu,I_greater_pickup_primary_A,TMS,higher_stages,basis
+R1,20 kV bus / Line 1,200/1,IEC Class B Very Inverse,1.1,220,0.5,"I>>, I>>>, I>>>> disabled",As configured during tests; CT class unverified
+R2,Bus B / Line 2,200/1,IEC Class B Very Inverse,1.1,220,0.1,"I>>, I>>>, I>>>> disabled",As configured during tests; CT class unverified
