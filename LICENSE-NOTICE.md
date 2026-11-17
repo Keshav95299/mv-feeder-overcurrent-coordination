@@ -1,3 +1,7 @@
 # Scope and rights
 
-This package contains screenshots of a PowerFactory demonstration environment supplied by the project author. PowerFactory and its screenshots/logos remain subject to applicable DIgSILENT software and documentation terms. No equipment-manufacturer PDFs are redistributed; reference URLs are provided in the README. No native relay-coordination `.pfd` was supplied.
+This project was developed using the demonstration version of DIgSILENT PowerFactory for educational and non-commercial evaluation purposes.
+
+The repository presents independently documented network parameters, simulation results, relay coordination settings, and selected visual evidence. Detailed software configuration screenshots and proprietary library content are intentionally excluded.
+
+DIgSILENT PowerFactory is proprietary software developed by DIgSILENT GmbH. This project is independent and is not affiliated with or endorsed by DIgSILENT.
