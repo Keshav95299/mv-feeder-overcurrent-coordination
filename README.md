@@ -2,7 +2,7 @@
 
 **DIgSILENT PowerFactory | IEC 60909 fault analysis | IEC 50/51 time-overcurrent relays**
 
-A two-zone radial feeder study evaluating **fault-current sensitivity, inverse-time relay grading, selective fault clearing, and upstream backup protection**. The model uses a 110/20-kV grid supply, two 20-kV feeder sections, and a 5-MW/2-MVAr load. All main figures are screenshots of the actual PowerFactory results, not recreated illustrations.
+A two-zone radial feeder study evaluating **fault-current sensitivity, inverse-time relay grading, selective fault clearing, and upstream backup protection**. The model uses a 110/20-kV grid supply, two 20-kV feeder sections, and a 5-MW/2-MVAr load. All screenshots presented are original results captured directly from DIgSILENT PowerFactory. As the project was carried out using a demo licence, which did not support exporting or saving simulation data, the results were documented through screenshots. None of the figures have been recreated or artificially generated.
 
 > **Scope:** Educational network with published reference parameters and clearly stated assumptions—not a commissioned utility protection design.
 
