@@ -20,11 +20,11 @@ In the final normal-operation screenshot, the 110-kV bus is approximately 110.0 
 |---|---|---|
 | Transformer | 110/20 kV, 20 MVA, YNd11 | Selected network design; vector group and neutral/grounding strategy must be justified for earth-fault work |
 | Transformer positive-sequence short-circuit voltage | **10%** | Published 20-MVA, 110-kV class typical transformer reference from Arcteq; used as an adapted study parameter, not a unit-specific certified datasheet [1] |
-| Transformer load (copper) losses | **87 kW** | Same Arcteq reference [1]; intended updated project value, not independently re-read from final `.pfd` |
-| Transformer no-load losses / no-load current | **13.5 kW / 0.20%** | Arcteq reference [1]; recommended reference values, but final entry into the model is not verified by the available screenshots |
+| Transformer load (copper) losses | **87 kW** | Same Arcteq reference [1]; intended updated project value. 
+| Transformer no-load losses / no-load current | **13.5 kW / 0.20%** | Arcteq reference [1]; recommended reference values.  |
 | External-grid short-circuit strength | **1,000 MVA max / 500 MVA min** at 110 kV | Assumed scenarios. The *maximum* 1,000-MVA order of magnitude also appears in a BDEW worked example for a different network [2]; **500 MVA is a study assumption, not a BDEW requirement** |
-| External-grid R/X | **0.1** | Assumed for both short-circuit cases; check model settings before reuse |
-| Line 1 | 20-kV, 1-km radial cable | Project model, PowerFactory IEC library; cable type and length should be checked against the final `.pfd` |
+| External-grid R/X | **0.1** | Assumed for both short-circuit cases  |
+| Line 1 | 20-kV, 1-km radial cable | Project model, PowerFactory IEC library; cable type -  12/20-kV aluminium cable, 1 × 120 mm², with a rated current of approximately 320 A.|
 | Line 2 | 20-kV, 1-km radial cable | 1 km in the Line 2 property screenshot; PowerFactory IEC library |
 | Cable type / model current rating | `IEC/20kV/Al/VPE/NA2XS(F)2Y 1×120 RM 12/20kV` (library label abbreviated); **0.32 kA** shown | PowerFactory library and installation assumptions (ground, derating factor 1); manufacturer ampacity and installation derating not independently verified |
 | Load | **5 MW + 2 MVAr** | Assumed constant load for study scenarios |
