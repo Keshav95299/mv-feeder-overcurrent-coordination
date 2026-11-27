@@ -18,7 +18,7 @@ In the final normal-operation screenshot, the 110-kV bus is approximately 110.0 
 
 | Item | Modelled / study value | Basis and status |
 |---|---|---|
-| Transformer | 110/20 kV, 20 MVA, YNd11 | Selected network design; vector group and neutral/grounding strategy must be justified for earth-fault work |
+| Transformer | 110/20 kV, 20 MVA, YNd11 |Selected network design; transformer vector group YNd11 adopted for the 110/20 kV connection. |
 | Transformer positive-sequence short-circuit voltage | **10%** | Published 20-MVA, 110-kV class typical transformer reference from Arcteq; used as an adapted study parameter, not a unit-specific certified datasheet [1] |
 | Transformer load (copper) losses | **87 kW** | Same Arcteq reference [1]; intended updated project value. 
 | Transformer no-load losses / no-load current | **13.5 kW / 0.20%** | Arcteq reference [1]; recommended reference values.  |
